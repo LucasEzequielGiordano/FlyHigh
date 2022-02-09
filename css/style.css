@@ -15,35 +15,83 @@ body {
 }
 
 header {
-    height: 25%;
+    height: 8%;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
+    width: 97%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+nav p {
+    color: #171819;
+}
+
+nav span {
+    color: #171819;
+    font-weight: 600;
+}
+
 .menu {
+    width: 55%;
     display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    color: #171819;
+}
+
+.menu li:hover {
+    color: #eaeaea;
+    transform: scale(1.1);
+    transition: all 250ms;
 }
 
 .login {
+    width: 20%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+.login li {
+    color: #171819;
+}
+
+.login li:hover {
+    color: #eaeaea;
+    transition: all 250ms;
+}
+
+.login li:nth-child(2) {
+    width: 40%;
+    text-align: center;
+    background-color: #171819;
+    color: #eaeaea;
+    border-radius: 15px;
+}
+
+.login li:nth-child(2):hover {
+    background-color: #eaeaea;
+    color: #171819;
 }
 
 .login li img {
-    height: 16px;
+    height: 10px;
 }
 
 main {
-    height: 50%;
+    height: 75%;
     width: 80%;
 }
 
 footer {
     height: 25%;
-    background-color: #fff;
+    background-color: #eaeaea;
 }
