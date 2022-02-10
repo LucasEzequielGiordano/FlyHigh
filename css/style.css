@@ -5,6 +5,7 @@
     /* font-family: Helvetica Neue, Circular; */
     text-decoration: none;
     list-style: none;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -14,8 +15,10 @@ body {
     background-size: cover;
 }
 
+/* -------------- header --------------- */
+
 header {
-    height: 8%;
+    height: 13%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -86,12 +89,130 @@ nav span {
     height: 10px;
 }
 
+/* -------------- main ----------------- */
+
 main {
-    height: 75%;
-    width: 80%;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
+h1 {
+    width: 45%;
+    font-size: 35px;
+    margin-left: 14px;
+}
+
+h2 {    
+    font-size: 20px;
+    margin-left: 14px;
+}
+
+.arrowRight {
+    height: 15px;
+}
+
+.containerTravel {
+    height: 60%;
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 13px;
+    transform: translate(0, -17px);
+}
+
+.options {
+    height: 15%;
+    width: 40%;
+    background-color: #333;
+    color: #eaeaea;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    border-radius: 10px 10px 0 0;
+    margin-left: 13px;
+}
+
+.flight {
+    margin: 2%;
+}
+
+
+.Hotel {
+    margin: 2%;
+}
+
+.Car {
+    margin: 2%;
+}
+
+.options img {
+    height: 15px;
+}
+
+.sections {
+    height: 15%;
+    width: 45%;
+    color: #171819;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 13px;
+}
+
+.sections p {
+    font-size: 16px;
+}
+
+.sections p img {
+    height: 15px;
+}
+
+.passage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.destiny {
+    display: flex;
+}
+
+.calendar {
+    display: flex;
+}
+
+.enter {
+    height: 10%;
+    width: 13%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #171819;
+    color: #eaeaea;
+    transform: translate(0, -25px);
+}
+
+.enter p {
+    text-align: center;
+}
+
+.enter p img {
+    height: 16px;
+}
+
+/* -------------- footer ---------------- */
+
 footer {
-    height: 25%;
+    height: 7%;
     background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
