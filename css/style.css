@@ -131,7 +131,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     margin-left: 2%;
-    transform: translate(0, -20px);
+    transform: translate(0, -15px);
 }
 
 .options {
@@ -145,7 +145,7 @@ h2 {
     gap: 25px;
     border-radius: 10px 10px 0 0;
     margin-left: 13px;
-    transform: translate(8px, 11px);
+    transform: translate(8px, 16px);
 }
 
 .flight {
@@ -183,9 +183,9 @@ h2 {
 }
 
 .passage {
-    padding: 15px;
+    gap: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -196,28 +196,41 @@ h2 {
 }
 
 .item1, .item2 {
+    padding: 5px;
     border: 1px solid #555;
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .change {
+    height: 70px;
     border: 1px solid #555;
     border-radius: 50%;
-    z-index: 2;
     display: flex;
     flex-direction: column;
-    transform: translate(-5px);
+    gap: 5px;
 }
-
-.item2 {
-    transform: translate(-8px);
-}
-
-
-
 
 .calendar {
     display: flex;
+    gap: 25px;
+}
+
+.departure, .return {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    border: 1px solid #555;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .calendar img {
@@ -233,7 +246,7 @@ h2 {
     align-items: center;
     background-color: #171819;
     color: #eaeaea;
-    transform: translate(0, -25px);
+    transform: translate(870px, -50px);
 }
 
 .enter p {
@@ -251,5 +264,5 @@ footer {
     background-color: #eaeaea;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
